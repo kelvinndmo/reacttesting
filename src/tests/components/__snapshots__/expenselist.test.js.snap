@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should get a message when there are no items 1`] = `
+<div>
+  <p>
+    kelvin onkundi ndemo
+  </p>
+</div>
+`;
+
+exports[`should render ExpenseList with expenses 1`] = `
+<div>
+  <Connect(ExpenseListItem)
+    amount={50}
+    createdAt={0}
+    description="kelvin"
+    id="1 "
+    key="1 "
+    note="back 95"
+  />
+  <Connect(ExpenseListItem)
+    amount={50000}
+    createdAt={-345600000}
+    description="kelvin onkundi"
+    id="2"
+    key="2"
+    note="back 95"
+  />
+  <Connect(ExpenseListItem)
+    amount={5000}
+    createdAt={345600000}
+    description="kelvin ndemo"
+    id="3"
+    key="3"
+    note="back 95"
+  />
+</div>
+`;
